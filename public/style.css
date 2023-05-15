@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
+
+* {
+  background-color: black;
+  color: maroon;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'ITC Benguiat Std', sans-serif;
+  align-items: center;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+nav > * {
+  padding: 5px;
+  font-size: larger;
+}
+
+fieldset {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
+fieldset > * {
+  padding: 5px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 5px;
+  font-family: 'ITC Benguiat Std', sans-serif;
+}
+
+#keywords {
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > * {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  font-family: 'ITC Benguiat Std', sans-serif;
+  font-size: medium;
+  width: 150px;
+  color: beige;
+  background-color: maroon;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: rgba(128, 0, 0, 0.451);
+}
+
+input {
+  background-color: beige;
+  padding: 5px;
+}
+
+#checkbox {
+  display: unset;
+  margin-left: 5px;
+}
+
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+h2 {
+  font-family: 'ITC Benguiat Std', sans-serif;
+  font-size: 200%;
+}
+
+.post, .message {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(23, 22, 22);
+  border: 1px solid maroon;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post > *:not(button) {
+  background-color: rgb(23, 22, 22);
+  /* height: 5px; */
+}
+
+.post > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#errorMessage {
+  display: flex;
+  justify-content: center;
+}
+
+.post > form > input {
+  width: 75%
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message > * {
+  background-color: rgb(23, 22, 22);
+}
+
+.message {
+  width: 50%;
+}
+
+#success {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+#register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: maroon 1px solid;
+  margin: 20px;
+  padding: 20px;
+  width: 50%
+}
+
+.registerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+}
